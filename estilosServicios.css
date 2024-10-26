@@ -164,58 +164,38 @@
 
 /* MAIN */
 
-#main {
-    margin-top: 10px;
-}
-
-.section_productosdestacados {
-    margin-left: 140px;
-    margin-right: 140px;
-}
-
-.section_promociones {
-    margin-left: 5vh;
-    margin-right: 5vh;
-}
-
-.section_h2 {
+.main_h1 {
+    margin: 15px;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
     font-size: 40px;
     font-weight: 600;
-    color:#131a37;
-    margin-bottom: 50px;
+    color: #0012db;
 }
 
-.article_section {
-    display: inline-block;
-    border-color: rgba(40, 12, 126, .7);
-    border-width: 3px;
-    border-style: solid;
-    padding: 20px 15px;
-    margin: -10px 10px 50px 10px;
-    background-color:#d3d7f44e;
+
+.main_li{
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+
 }
 
-.section_imgs {
-    width: 220px;
-}
-
-.section_h3 {
+.main_p {
+    text-align: center;
     font-size: 18px;
-    text-align: center;
-    font-weight: 600;
-    background-color: #d3d7f400;
-    margin-top: 7px;
-    margin-bottom: 15px;
 }
 
-.section_p {
-    text-align: center;
-    background-color: #d3d7f400;
-    margin-bottom: -10px;
-    font-style:italic;
-    font-weight: 400;
+h4 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #020c2c;
+}
+
+.li_p{
+    margin: 0 20px;
 }
 
 
