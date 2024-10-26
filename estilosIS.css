@@ -61,7 +61,6 @@
 
 #logoDiv {
    width: 100%;
-   /* position: relative; */
 }
 
 #headerLogo {
@@ -153,64 +152,132 @@
     color: rgba(0, 19, 77, 0.7);
 }
 
-.lineaseparadora {
+/* .lineaseparadora {
     height: 7px;
     background-color: #0030c0;    
     margin-top: 30px;
     width: 270px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* MAIN */
 
-#main {
+.main {
+    margin: 20px 100px;
+    text-align: center;
+}
+
+.main_h1{ 
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.main_p {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0 22px 30px 22px;
+
+}
+
+.main_container {
+    padding: 15px;
+    width: 800px;
+    height: 490px;
+    background-color: #39adff65;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #0030c0a2;
+    border-radius: 20px;
+}
+
+.main_form {
+
+}
+
+.form_username, .form_pass{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    height: 50px;
+    border: 3px solid #0044889e;
+    border-radius: 8px;
+    font-size: 23px;
+    padding: 5px;
+    background-color: #dddede80;
+    transition: background-color .5s ease;
+}
+
+.form_username {
+    margin-bottom: 30px;
+}
+
+.form_username:focus, .form_pass:focus {
+    outline: none;
+    color: #020c2c;
+    background-color: #b0b4b780;
+}
+
+.form_username::placeholder, .form_pass::placeholder {
+    color: #001861a4;
+}
+
+.form_forgetpass {
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+    margin-right:135px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #020c2c;
+}
+
+.form_forgetpass:visited {
+    text-decoration: none;
+}
+
+.form_forgetpass:hover {
+    color:#053770 ;
+}
+
+.form_submit {
+    width: 300px;
+    height: 38px;
+    border: 2px solid #0030c075;
+    border-radius: 5px;
+    background-color: #0049bfd4;
+    font-size: 25px;
+    letter-spacing: 1px;
     margin-top: 10px;
+    color: #000618;
+    transition: background-color .5s ease;
 }
 
-.section_productosdestacados {
-    margin-left: 140px;
-    margin-right: 140px;
+.form_submit:hover {
+    background-color: #0072d0d4 ;
 }
 
-.section_h2 {
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    color:#131a37;
-    margin-bottom: 50px;
+.form_noacc{ 
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
-.article_section {
-    display: inline-block;
-    border-color: rgba(40, 12, 126, .7);
-    border-width: 3px;
-    border-style: solid;
-    padding: 20px 15px;
-    margin: -10px 10px 50px 10px;
-    background-color:#d3d7f44e;
+
+.form_newacc {
+    color: #0015a0;
+    text-decoration: none;
+    font-size: 33px;
 }
 
-.section_imgs {
-    width: 220px;
+.form_newacc:hover {
+    color: #006ba9;
 }
 
-.section_h3 {
-    font-size: 18px;
-    text-align: center;
-    font-weight: 600;
-    background-color: #d3d7f400;
-    margin-top: 7px;
-    margin-bottom: 15px;
-}
-
-.section_p {
-    text-align: center;
-    background-color: #d3d7f400;
-    margin-bottom: -10px;
-    font-style:italic;
-    font-weight: 400;
+.form_newacc:visited {
+    text-decoration: none;
 }
 
 /* FOOTER */
