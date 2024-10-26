@@ -33,24 +33,31 @@
     <!-- <hr class="lineaseparadora"> -->
 
     <main class="main">
+        <div class="main_container">
         <h1 class="main_h1">Crea tu cuenta</h1>
+        <p class="main_p">¡Únete a nosotros! Regístrate para acceder a ofertas exclusivas y novedades en nuestra tienda.</p>
         <form class="main_form">
             <input class="main_input" type="text" placeholder="Nombre" name="nombre" required>
             <input class="main_input" type="text" placeholder="Apellido" name="apellido" required>
             <input class="main_input" type="email" placeholder="Email" name="email" required>
             <input class="main_input" type="tel" placeholder="Teléfono" name="telefono" required>
-            <label class="main_input" for="nacimiento">Fecha de nacimiento</label>
+            <div class="div_label">
+            <label class="main_label" for="nacimiento">Fecha de nacimiento</label>
+            </div>
             <input class="main_input" type="date" name="nacimiento" id="nacimiento" required>
-            <label class="label" for="genero">Género</label>
-            <select class="main_select" name="genero" id="genero" required>
+            <div class="div_label">
+            <label class="main_label" for="genero">Género</label>
+            </div>
+            <select class="main_input" name="genero" id="genero" required>
                 <option class="main_option" value="Femenino">Femenino</option>
                 <option class="main_option" value="Masculino">Masculino</option>
             </select>
             <input class="main_input" type="password" placeholder="Contraseña" name="contraseña" required>
             <input class="main_input" type="password" placeholder="Repite la Contraseña" name="contraseña" required>
             <input class="main_submit" type="submit" value="Registrarse">
-            <p class="main_p">¿Ya tienes una cuenta?</p><a class="main_inicia" href="IniciarSesion.html">Inicia sesión</a>
+            <p class="main_cuenta">¿Ya tienes una cuenta?</p><a class="main_inicia" href="IniciarSesion.html">Inicia sesión</a>
         </form>
+    </div>
     </main>
 
     <footer class="footer"> 

@@ -192,9 +192,6 @@
     border-radius: 20px;
 }
 
-.main_form {
-
-}
 
 .form_username, .form_pass{
     margin-left: auto;
@@ -211,7 +208,7 @@
 }
 
 .form_username {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .form_username:focus, .form_pass:focus {
